@@ -9,6 +9,9 @@ body{
 }
 .detal{
   color: var(--first-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
 }
 
 .home__container{
