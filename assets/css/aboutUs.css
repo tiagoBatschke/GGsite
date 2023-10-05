@@ -1,8 +1,8 @@
 /*=============== ABOUT US INSTITUCIONAL ===============*/
 
 .about_container_us{
-    width: 70%;
-    margin-left: 20%;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 3rem;
   }
   
@@ -10,15 +10,20 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     margin-left: 5%;
   }
   
   
   .about_content{
+<<<<<<< HEAD
     width: 40%;
     margin-right: 0%;
     margin-bottom: 1rem;
+=======
+    width:100%;
+    margin-left: 5%;
+>>>>>>> e99cd17b8dac7fdfd7a04fd0a985589b40e9982c
   }
   
   .about_container_tittle{
@@ -30,6 +35,16 @@
     font-family: Arial, light;
     font-size: 1.3rem;
     letter-spacing: 0.06rem;
+  }
+
+  .about_title{
+    margin-top: 2rem;
+    margin-left: -0.5rem;
+    font-family: Arial, light;
+    font-size: 1.8rem;
+    letter-spacing: 0.06rem;
+    width: 60%;
+    font-weight: bold;
   }
   
   .aboutUs_text_bold{
@@ -58,11 +73,7 @@
   
   /*=============== ABOUT us geral ===============*/
   
-  .section_about_us_container{
-    margin-top: 10%;
-    margin-left: 4rem;
-  }
-  
+
   
   .button_aboutUs_container{
     width: 80%;
@@ -150,12 +161,14 @@
     margin-left: 5%;
     margin-top: 3rem;
   }
-
+  .about_title{
+    width: 90%;
+  }
   .about_container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin-left: 2%;
   }
     
@@ -195,10 +208,7 @@
       width: 100%;
       margin-left: 5%;
     }
-    .section_about_us_container {
-      margin-left: -2rem;
-      width: 100%;
-    }
+
     .button_aboutUs {
       width: 90%;
     }
@@ -273,9 +283,7 @@
       margin-left: 1rem;
     
     }
-    .section_about_us_container {
-      margin-left: -1rem;
-    }
+
     
     .about__description{
       width: 100%;
@@ -446,11 +454,7 @@
       font-size: 0.7rem;
       margin-right: 0rem;
     }
-    .infordados {
-      margin-right: 0.7rem;
-      align-items: center;
-      font-size: 0.75rem;
-    }
+    
     .button_home {
      margin-right: -0.8rem;
     }
@@ -470,10 +474,7 @@
     .home__input {
       font-size: 0.9rem;
     }
-    .infordados {
-      margin-left: -0.7rem;
-      font-size: 0.75rem;
-    }
+   
     .button_home {
      margin-left: 0rem;
     }
