@@ -1,0 +1,40 @@
+.pilares_container{
+    background-image: url('../img/Rectangle\ 80.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 10%;
+    margin-top: 5%;
+}
+
+.pilares_topics-container{
+    width: 60%;
+    margin-left: 40%;
+    background-color: transparent;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.pilares_topics{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: start;
+    width: 50%;
+}
+
+.intro_pilares{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.pilares_text{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+}

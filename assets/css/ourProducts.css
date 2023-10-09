@@ -1,0 +1,21 @@
+.ourProducts-container{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 15vh;
+    margin-top: 12%;
+}
+
+.ourProducts-containerInterno{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    max-width: 60%;
+    
+}
+
+.ourProducts-img{
+    max-width: 40%;
+}
