@@ -192,7 +192,7 @@ body{
     font-size: 1.375rem;
     line-height: 2rem;
     font-weight: bold;
-    margin-left: 2rem;
+    margin-right: 5rem;
   }
 
   @media screen and (max-width: 1200px) {
