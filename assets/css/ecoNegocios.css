@@ -1,0 +1,113 @@
+.eco_text{
+    padding: 1rem;
+    border: 1px solid #FF7A00;
+    margin-top: 0.5rem;
+    
+}
+
+.eco-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    
+}
+
+.eco_imgs-container{
+    display: flex;
+
+}
+
+@media (min-width: 1200px){
+    .eco_text{
+        padding: 1rem;
+        border: 1px solid #FF7A00;
+        margin-top: 0.5rem;
+        
+    }
+    
+    .eco-container{
+        display: flex;
+        width: 20%;
+        justify-content: space-evenly;
+        margin-left: 1%;
+        
+    }
+    
+    .eco_imgs-container{
+        display: flex;
+    
+    }
+}
+
+  
+@media (max-width: 1200px){
+    .eco_text{
+        padding: 1rem;
+        border: 1px solid #FF7A00;
+        margin-top: 0.5rem;
+        
+    }
+    
+    .eco-container{
+        display: flex;
+        width: 98%;
+        justify-content: space-evenly;
+        margin-left: -1%;
+        
+    }
+    
+    .eco_imgs-container{
+        display: flex;
+    
+    }
+    
+}
+  
+@media (max-width: 800px){
+    .eco_text{
+        padding: 1rem;
+        border: 1px solid #FF7A00;
+        margin-top: 0.5rem;
+        width: 40%;
+        margin-left: 10%;
+        
+    }
+
+    .text_big{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .eco_text-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-top: -8rem;
+        margin-left: 10%;
+    }
+    .eco-container{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        flex-direction: column;
+        
+    }
+    
+    .eco_imgs-container{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .logo__negocios1{
+        margin-left: -10%;
+        margin-bottom: -15%;
+    }
+    .logo__negocios2{
+        transform: rotate(90deg);
+        width: 10vw;
+        margin-left: 40%;
+    }
+}

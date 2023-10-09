@@ -16,14 +16,9 @@
   
   
   .about_content{
-<<<<<<< HEAD
     width: 40%;
     margin-right: 0%;
     margin-bottom: 1rem;
-=======
-    width:100%;
-    margin-left: 5%;
->>>>>>> e99cd17b8dac7fdfd7a04fd0a985589b40e9982c
   }
   
   .about_container_tittle{
@@ -39,7 +34,7 @@
 
   .about_title{
     margin-top: 2rem;
-    margin-left: -0.5rem;
+    margin-left: 20%;
     font-family: Arial, light;
     font-size: 1.8rem;
     letter-spacing: 0.06rem;
