@@ -11,7 +11,7 @@
 
 .pilares_topics-container{
     width: 60%;
-    margin-left: 40%;
+    margin-left: 25%;
     background-color: transparent;
     height: 60%;
     display: flex;
@@ -21,10 +21,12 @@
 }
 
 .pilares_topics{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    text-align: start;
     width: 50%;
+    margin-bottom: 6.5rem;
+    margin-right: -5rem;
+    margin-top: -5rem;
 }
 
 .intro_pilares{
