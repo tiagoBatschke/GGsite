@@ -47,7 +47,7 @@
     
     .accordion-content header {
       display: flex;
-      padding: 0 15px 10px;
+      padding: 10px 0px 0px 10px;
       box-shadow: all;
       justify-content: space-between;
       cursor: pointer;
@@ -91,9 +91,9 @@
       margin-top: 0rem;
     }
     .img_valores {
-     width: 20rem;
+     width: 30rem;
      height: 28rem;
-     margin-top: 0rem;
+     margin-top: 3rem;
      margin-bottom: 2rem;
    }
   

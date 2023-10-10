@@ -42,6 +42,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.section__title {
+font-size: 1.5rem;
+}
 
 
 @media (min-width: 700px) {
