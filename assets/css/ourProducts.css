@@ -3,7 +3,8 @@
     margin-left: 20%;
     display: flex;
     justify-content: space-evenly;
-    height: 15vh;
+    min-height: 15vh;
+    max-height: 20vh;
     margin-top: 12%;
 }
 
@@ -18,4 +19,40 @@
 
 .ourProducts-img{
     max-width: 40%;
+}
+
+.ourProducts_text-container{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .ourProducts-container{
+        width: 60%;
+        margin-left: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        min-height: 25vh;
+        max-height: 40vh;
+        margin-top: 12%;
+        flex-direction: column;
+    }
+
+    .ourProducts-img{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 1rem;
+    }
+
+    .ourProducts_text-container{
+        width: 60%;
+        margin-left: 20%;
+       
+    }
+
+    .text_intern{
+     width: 150%;  
+    }
 }
