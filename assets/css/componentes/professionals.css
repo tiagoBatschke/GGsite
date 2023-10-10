@@ -55,3 +55,16 @@
 .professional_title{
     font-size: 1.8rem;
 }
+
+
+@media screen and (min-width: 800px) {
+    .carrousel_container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container_professionals{
+        display: none;
+    }
+}
