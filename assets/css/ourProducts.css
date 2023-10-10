@@ -56,3 +56,33 @@
      width: 150%;  
     }
 }
+
+
+@media screen and (max-width: 500px){
+    .ourProducts-container{
+        width: 60%;
+        margin-left: 20%;
+        display: flex;
+        justify-content: space-evenly;
+        min-height: 25vh;
+        max-height: 40vh;
+        margin-top: 12%;
+        flex-direction: column;
+    }
+
+    .ourProducts-img{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 1rem;
+    }
+
+    .ourProducts_text-container{
+        width: 60%;
+        margin-left: 20%;
+       
+    }
+
+    .text_intern{
+     width: 150%;  
+    }
+}
