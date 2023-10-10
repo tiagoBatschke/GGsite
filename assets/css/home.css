@@ -11,7 +11,9 @@ body{
   color: var(--first-color);
   display: flex;
   justify-content: center;
+  margin-right: 18%;
   margin-top: 10rem;
+  margin-bottom: 2rem;
 }
 
 .home__container{
@@ -152,6 +154,12 @@ body{
     border-radius: 0.7rem;
     display: flex;
     justify-content: space-between;
+  }
+
+  .tittle__style {
+    margin-top: 0.5rem;
+     font-size: 1.8rem;
+      margin-left: 9.2rem;
   }
 
   .img_produtos{
