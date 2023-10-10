@@ -205,8 +205,8 @@
      width: 100%;
    }
    .accordion {
-    width: 100%;
-    padding-left: 0.1rem;
+    width: 90%;
+    
     }
     .tittle_valores_icon {
       font-size: 0.7rem;
@@ -218,9 +218,12 @@
     }
   
     .intro_valores{
-     margin-left: 1.2rem;
-     margin-bottom: 1rem;
-     font-size: var(--normal-font-size);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 8rem;
+      width: 80%;
+      margin-left: 10%;
    
    }
   
@@ -228,13 +231,19 @@
      padding-left: 2.5rem;
      padding-right: 2.5rem;
    }
+   .img_container-valores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+   }
     }
   
-    @media(min-width: 680px) and (max-width: 982px){
+    @media(min-width: 680px) and (max-width: 800px){
      .img_valores {
-       width: 20rem;
+       width: 40%;
        margin-bottom: 3rem;
-       margin-left: 30%;
+       
         
      }
   
@@ -246,12 +255,28 @@
      width: 100%;
    }
    .accordion {
-    width: 100%;
-    padding-left: 2rem;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: -15%;
     }
-  
+
+    .section_valores {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 8rem;
+      width: 80%;
+      margin-left: 10%;
+     }
+
+     .img_container-valores{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+     }
     .intro_valores{
-     margin-left: 3rem;
+    
      margin-bottom: 1rem;
      font-size: var(--normal-font-size);
    
@@ -263,32 +288,38 @@
     }
   
   
-   @media(min-width: 982px)and (max-width: 1280px){
+   @media(min-width: 800px)and (max-width: 1280px){
+    .img_valores {
+      width: 22rem;
+      max-height: 30rem;
+    }
+      
+    .container_content{
+      margin-left: 3rem;
+    }
+ 
+    .intro_valores{
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    
+    }
+ 
   
-     .img_valores {
-       width: 18rem;
-       max-height: 25rem;
-       margin-bottom: 4rem;
-     
-        
-     }
-     .container_content{
-       margin-left: 2rem;
-     }
-  
-     .intro_valores{
-       margin-left: 1rem;
-       margin-bottom: 1rem;
-     
-     }
+      .tittle_valores_icon {
+       margin-top: 1rem;
+       font-size: 0.9rem;
+      }
+      .description {
+       font-size: 0.8rem;
+      }
   
      .section_valores {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-top: 8rem;
-        width: 100%;
-      
+        width: 70%;
+        margin-left: 15%;
        }
    }
   
@@ -310,7 +341,9 @@
      }
   
      .section_valores {
-      padding-left: 15%;
+      padding-left: 0%;
+      width: 70%;
+      margin-left: 15%;
       
        }
        .tittle_valores_icon {

@@ -10,6 +10,19 @@
     box-shadow: 1px 2px 70px 12px rgba(0,0,0,0.75);
     margin-top: 5%;
 }
+
+.proffessional_card-carrousel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 1.8rem;
+    padding: 1rem;
+    -webkit-box-shadow: 1px 2px 70px 12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 70px 12px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 70px 12px rgba(0,0,0,0.75);
+    margin-top: 5%;
+}
 .intro_professionals{
     width: 80%;
     margin-left: 10%;
@@ -41,4 +54,17 @@
 
 .professional_title{
     font-size: 1.8rem;
+}
+
+
+@media screen and (min-width: 800px) {
+    .carrousel_container{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container_professionals{
+        display: none;
+    }
 }
