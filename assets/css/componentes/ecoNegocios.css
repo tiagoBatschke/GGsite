@@ -19,7 +19,7 @@
 }
 
 .logo__negocios2 {
-    margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 
@@ -75,6 +75,12 @@
 }
   
 @media (max-width: 800px){
+    .eco_container{
+        width: 80%;
+        margin-left: 10%;
+      
+    }
+
     .eco_text{
         padding: 1rem;
         border: 1px solid #FF7A00;
@@ -86,7 +92,8 @@
 
     .text_big{
         width: 60%;
-        margin-left: 20%;
+        margin-left: 10%;
+    
     }
     .eco_text-container{
         display: flex;
@@ -97,27 +104,138 @@
     }
     .eco-container{
         display: flex;
-        width: 90%;
+        width: 100%;
         justify-content: space-evenly;
-        margin-left: 10%;
         flex-direction: column;
+        
         
     }
     
     .eco_imgs-container{
         display: flex;
         flex-direction: column;
-        width: 70%;
-        margin-left: 15%;
+        width: 100%;
+       
+     
     }
 
     .logo__negocios1{
-        margin-left: -10%;
-        margin-bottom: -15%;
+       width: 90%;
+       margin-right: 5%;
     }
     .logo__negocios2{
         transform: rotate(90deg);
-        width: 10vw;
-        margin-left: 40%;
+        width: 20%;
+        margin-top: -25vh;
+
     }
+
+    .container_img2{
+        margin-left: 40%;
+ 
+       
+    }
+    .container_img1{
+        width: 40%;
+        margin-left: 18%;
+       
+    }
+
+    .text_big{
+        width: 60%;
+        margin-left: 25%;
+    
+    }
+    .eco_text-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: -8rem;
+        margin-left: 5%;
+    }
+   
+}
+
+
+@media (max-width: 550px){
+    .eco_container{
+        width: 90%;
+        margin-left: 10%;
+      
+    }
+
+    .eco_text{
+        padding: 1rem;
+        border: 1px solid #FF7A00;
+        margin-top: 0.5rem;
+        width: 46%;
+        margin-left: 2%;
+        
+    }
+
+    .text_big{
+        width: 80%;
+        margin-left: 10%;
+        
+    }
+    .eco_text-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin-top: 8rem;
+        margin-left: 5%;
+        
+    }
+    .eco-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+        
+    }
+    
+    .eco_imgs-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+
+    .logo__negocios1{
+       width: 90%;
+       margin-right: 5%;
+    }
+    .logo__negocios2{
+        transform: rotate(90deg);
+        width: 20%;
+        margin-top: -15vh;
+        margin-bottom: 8vh;
+    }
+
+    .container_img2{
+        margin-left: 35%;
+ 
+       
+    }
+    .container_img1{
+        width: 40%;
+        margin-left: 18%;
+       
+    }
+
+    .text_big{
+        width: 60%;
+        margin-left: 25%;
+    
+    }
+    .eco_text-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin-top: -8rem;
+        margin-left: 5%;
+    }
+   
 }
