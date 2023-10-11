@@ -12,7 +12,8 @@
 .logo_footer{
     width: 30%;
     margin-left: 35%;
-    margin-top: 3vh;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 .social_icons-container{
     display: flex;
