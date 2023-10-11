@@ -21,7 +21,7 @@
       color: #ffffff;
       margin-top: 0.5rem;
       font-size: 1.2rem;
-      font-family: 'Baloo 2';
+      font-family: Arial, light;
       padding-bottom: 0.5rem;
       text-align: center;
       font-weight: bold;
@@ -31,7 +31,7 @@
       color: #fff;
       margin-top: 1rem;
       font-size: 1rem;
-      font-family: 'Baloo 2';
+      font-family: Arial, light;
     }
 
     .rounded_img{
