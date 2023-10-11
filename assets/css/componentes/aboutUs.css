@@ -26,9 +26,10 @@
   }
   .aboutUs_text{
     margin-top: 2rem;
-    margin-left: -0.5rem;
     font-family: Arial, light;
     font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
     letter-spacing: 0.06rem;
   }
 
