@@ -35,7 +35,7 @@
         display: flex;
         justify-content: space-evenly;
         min-height: 25vh;
-        max-height: 40vh;
+        max-height: 50vh;
         margin-top: 12%;
         flex-direction: column;
     }
@@ -50,11 +50,21 @@
         width: 60%;
         margin-left: 20%;
        
+       
     }
 
     .text_intern{
-     width: 150%;  
+     width: 100%;  
     }
+
+    .ourProducts-containerInterno{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        max-width: 90%;
+    }    
+    
 }
 
 
@@ -65,7 +75,7 @@
         display: flex;
         justify-content: space-evenly;
         min-height: 25vh;
-        max-height: 40vh;
+        max-height: 60vh;
         margin-top: 12%;
         flex-direction: column;
     }
@@ -83,6 +93,14 @@
     }
 
     .text_intern{
-     width: 150%;  
+     width: 100%;  
     }
+
+    .ourProducts-containerInterno{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        max-width: 80%;
+    } 
 }
