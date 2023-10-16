@@ -91,7 +91,7 @@
       flex-direction: row;
       justify-content:space-evenly;
       margin-top: 15vh;
-  
+      margin-bottom: 15vh;
     }
     .contact__form{
       margin-top: 1rem;
@@ -121,12 +121,12 @@
      }
   @media screen and (max-width: 880px){
     .contact__container{
-      width: 100%;
+      width: 95%;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      margin-top: 10%;
-  
+      margin-top: 15vh;
+      margin-bottom: 15vh;
     }
     
   
@@ -175,8 +175,8 @@
     flex-wrap: wrap;
     align-items: center;
     margin-left: 2rem;
-    
-    
+    margin-top: 15vh;
+    margin-bottom: 15vh;
    }
    
    .button_contact{
@@ -199,12 +199,14 @@
    }
   
   
-   @media screen and (max-width: 380px){
-    .contact__container {
-      margin-left: 1rem;
-    }
-  
+  }
+  @media screen and (max-width: 380px){
+   .contact__container {
+     margin-left: 1rem;
+     margin-top: 15vh;
+     margin-bottom: 15vh;
    }
+ 
   }
   
   
