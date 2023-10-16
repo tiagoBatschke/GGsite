@@ -82,7 +82,7 @@
 font-size: 1.5rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 600px) {
     
     .footer_container{
         display: flex;
@@ -126,92 +126,6 @@ font-size: 1.5rem;
     }
 }
 
-@media (max-width: 800px) {
-
-    .footer_container{
-        background-color: #000;
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-        width: 105%;
-        margin-left: -5%;
-    }
-    
-    .logo_footer{
-        width: 30%;
-        margin-left: 25%;
-        margin-top: 3vh;
-    }
-    
-    .title_footer{
-        margin-left: 25%;
-        margin-top: 1rem;
-        width: 50%;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    
-    .title_footer2{
-        margin-left: 25%;
-        margin-top: 1rem;
-        width: 40%;
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-    
-    .subtitle_footer{
-        margin-left: 15%;
-        margin-top: 1rem;
-        width: 70%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: -0.1rem;
-    }
-    .social_icons-container{
-        display: flex;
-        justify-content: space-evenly;
-        width: 30%;
-        margin-left: 22%;
-        margin-top: 1rem;
-    }
-    .direitos_text{
-        color: #fff;
-        width: 80%;
-        margin-left: 0%;
-        margin-top: 1rem;
-        text-align:center;
-    }
-    
-    .title_adress{
-        text-align:center;
-        width: 80%;
-    }
-    .logo_footer-container{
-        width: 50%;
-        margin-left:30%;
-       justify-content: center;
-       align-items: center;
-       margin-top: 1rem;
-       margin-bottom: 1rem;
-    }
-    
-    .direitos_text-container{
-        width:60%;
-        margin-left:25%;
-    
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    .section__title {
-    font-size: 1.5rem;
-    }
-    
-}
 
 
 @media (max-width: 600px) {
@@ -227,28 +141,35 @@ font-size: 1.5rem;
     
     .logo_footer{
         width: 30%;
-        margin-left: 22%;
+        margin-left: 35%;
         margin-top: 3vh;
     }
     
     .title_footer{
         margin-left: 20%;
         margin-top: 1rem;
-        width: 50%;
+        width:80%;
         display: flex;
         flex-wrap: wrap;
-        
+        text-align: center;
+       
     }
+
     
     .title_footer2{
-        margin-left: 0%;
+        margin-left: 30%;
         margin-top: 1rem;
         width: 40%;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
         
     }
     
+
+    .title_adress{
+       
+    }
     .subtitle_footer{
         margin-left: 10%;
         margin-top: 1rem;
@@ -260,9 +181,11 @@ font-size: 1.5rem;
     .social_icons-container{
         display: flex;
         justify-content: space-evenly;
-        width: 30%;
-        margin-left: 22%;
+        width: 80%;
+        margin-left: 10%;
         margin-top: 1rem;
+        
+        
     }
     .direitos_text{
         color: #fff;
@@ -270,6 +193,7 @@ font-size: 1.5rem;
         margin-left: 0%;
         margin-top: 1rem;
         text-align:center;
+        
     }
     
     .title_adress{
@@ -278,22 +202,34 @@ font-size: 1.5rem;
     }
     .logo_footer-container{
         width: 50%;
-        margin-left:35%;
+        margin-left:25%;
        justify-content: center;
        align-items: center;
        margin-top: 1rem;
        margin-bottom: 1rem;
+     
+    }
+
+    .logo_footer-container2{
+        width: 50%;
+        margin-left:25%;
+       justify-content: center;
+       align-items: center;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+     
+       
     }
     
     .direitos_text-container{
         width:60%;
-        margin-left:30%;
-    
+        margin-left:20%;
         margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        
+      
     }
     .section__title {
     font-size: 1.5rem;
@@ -314,29 +250,36 @@ font-size: 1.5rem;
     }
     
     .logo_footer{
-        width: 30%;
-        margin-left: 22%;
+        width: 40%;
+        margin-left: 30%;
         margin-top: 3vh;
     }
     
     .title_footer{
-        margin-left: 20%;
+        margin-left: 0%;
         margin-top: 1rem;
-        width: 50%;
+        width:80%;
         display: flex;
         flex-wrap: wrap;
-        
+        text-align: center;
+       
     }
+
     
     .title_footer2{
-        margin-left: 0%;
+        margin-left: 30%;
         margin-top: 1rem;
         width: 40%;
         display: flex;
         flex-wrap: wrap;
+        text-align: center;
         
     }
     
+
+    .title_adress{
+       
+    }
     .subtitle_footer{
         margin-left: 10%;
         margin-top: 1rem;
@@ -348,9 +291,11 @@ font-size: 1.5rem;
     .social_icons-container{
         display: flex;
         justify-content: space-evenly;
-        width: 30%;
-        margin-left: 22%;
+        width: 80%;
+        margin-left: 10%;
         margin-top: 1rem;
+        
+        
     }
     .direitos_text{
         color: #fff;
@@ -358,6 +303,7 @@ font-size: 1.5rem;
         margin-left: 0%;
         margin-top: 1rem;
         text-align:center;
+        
     }
     
     .title_adress{
@@ -365,23 +311,35 @@ font-size: 1.5rem;
         width: 80%;
     }
     .logo_footer-container{
-        width: 70%;
+        width: 50%;
         margin-left:25%;
        justify-content: center;
        align-items: center;
        margin-top: 1rem;
        margin-bottom: 1rem;
+     
+    }
+
+    .logo_footer-container2{
+        width: 50%;
+        margin-left:25%;
+       justify-content: center;
+       align-items: center;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+     
        
     }
     
     .direitos_text-container{
-        width:80%;
-        margin-left:18%;
+        width:60%;
+        margin-left:20%;
         margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        
+      
     }
     .section__title {
     font-size: 1.5rem;
