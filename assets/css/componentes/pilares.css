@@ -41,3 +41,285 @@
     font-size: 1.5rem;
     font-family: Arial, Light;
 }
+
+
+@media (max-width: 1200px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics{
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 50%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 20%;
+    }
+    
+    .pilares_topics{
+        font-size: 1rem;
+        font-weight: bold;
+        width: 55%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 550px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 30%;
+    }
+    
+    .pilares_topics{
+        font-size: 0.7rem;
+        font-weight: bold;
+        width: 70%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 1200px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics{
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 50%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media (max-width: 700px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 20%;
+    }
+    
+    .pilares_topics{
+        font-size: 1rem;
+        font-weight: bold;
+        width: 55%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 550px){
+    .pilares_container{
+        background-image: url('../../img/Rectangle\ 80.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        padding-top: 10%;
+        margin-top: 5%;
+    }
+    
+    .pilares_topics-container{
+        width: 90%;
+        margin-left: 5%;
+        background-color: transparent;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: space-evenly;
+        margin-top: 30%;
+    }
+    
+    .pilares_topics{
+        font-size: 0.7rem;
+        font-weight: bold;
+        width: 70%;
+        margin-bottom: 6.5rem;
+        margin-right: -5rem;
+        margin-top: -5rem;
+    }
+    
+    .intro_pilares{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .pilares_text{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+        font-size: 1.5rem;
+    }
+}
