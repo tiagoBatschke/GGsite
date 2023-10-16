@@ -100,7 +100,7 @@ $(document).ready(function() {
         {
           breakpoint: 450,
           settings: {
-            slidesToShow: 1.2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             infinite: true,
           }
