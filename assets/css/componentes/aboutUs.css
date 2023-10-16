@@ -3,7 +3,7 @@
 .about_container_us{
     width: 90%;
     margin-left: 5%;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   
   .about_container{
@@ -18,11 +18,12 @@
   .about_content{
     width: 40%;
     margin-left: 80%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   
   .about_container_tittle{
-    margin-left: 0%
+    margin-left: 0%;
+    margin-bottom: 2rem;
   }
   .aboutUs_text{
     margin-top: 2rem;
