@@ -50,11 +50,21 @@
         width: 60%;
         margin-left: 20%;
        
+       
     }
 
     .text_intern{
-     width: 150%;  
+     width: 100%;  
     }
+
+    .ourProducts-containerInterno{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        max-width: 90%;
+    }    
+    
 }
 
 
@@ -83,6 +93,14 @@
     }
 
     .text_intern{
-     width: 150%;  
+     width: 100%;  
     }
+
+    .ourProducts-containerInterno{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+        max-width: 80%;
+    } 
 }

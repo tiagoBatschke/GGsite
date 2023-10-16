@@ -54,14 +54,7 @@
   }
   
   
-  .newsletter {
-    background-color: var(--first-color-dark);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 1rem 1rem 1rem 1rem;
-    padding: 4.5rem 0 4.25rem 0;
-  }
+  
   
   .nav__close {
     font-size: 1.5rem;

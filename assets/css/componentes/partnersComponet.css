@@ -38,6 +38,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 4rem;
+  
     }
     
     .parteners_container-interno1{
@@ -49,6 +50,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
+      
     }
     
     .parteners_imgs1{

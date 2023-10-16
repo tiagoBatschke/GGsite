@@ -21,9 +21,7 @@
     margin-bottom: 1rem;
   }
   
-  .about_container_tittle{
-    margin-left: 0%
-  }
+
   .aboutUs_text{
     margin-top: 2rem;
     font-family: Arial, light;
@@ -301,9 +299,7 @@
     .button_aboutUs1 {
       width: 70%;
     }
-    .newsletter__input {
-      font-size: 0.6rem;
-    }
+  
     
   
     .about__data{
