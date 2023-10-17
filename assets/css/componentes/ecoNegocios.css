@@ -115,7 +115,7 @@
         margin-top: 0.5rem;
         width: 40%;
         margin-left: 10%;
-        
+        text-align: center;
     }
 
     .text_big{
@@ -153,9 +153,10 @@
     }
     .logo__negocios2{
         transform: rotate(90deg);
-        width: 20%;
-        margin-top: -25vh;
-        margin-left: 0;
+        width: 18%;
+        margin-top: -22vh;
+        margin-left: 4%;
+        margin-bottom: 2rem;
     }
 
     .container_img2{
@@ -203,7 +204,7 @@
         margin-top: 0.5rem;
         width: 46%;
         margin-left: 2%;
-        
+        text-align: center;
     }
 
     .text_big{
@@ -242,10 +243,10 @@
     }
     .logo__negocios2{
         transform: rotate(90deg);
-        width: 20%;
+        width: 18%;
         margin-top: -15vh;
         margin-bottom: 8vh;
-        margin-left: 0;
+        margin-left: 4%;
     }
 
     .container_img2{
@@ -259,11 +260,7 @@
        
     }
 
-    .text_big{
-        width: 60%;
-        margin-left: 25%;
     
-    }
     .eco_text-container{
         display: flex;
         flex-wrap: wrap;
