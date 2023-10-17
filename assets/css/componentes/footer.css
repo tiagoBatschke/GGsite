@@ -101,9 +101,10 @@ font-size: 1.5rem;
         flex-direction: row;
     }
     .title_footer{
-        width:50%;
+        width:75%;
         margin-left: 25%;
         margin-top: 1rem;
+        
     }
 
     .subtitle_footer{
@@ -115,9 +116,9 @@ font-size: 1.5rem;
         margin-top: 0.1rem;
     }
     .title_footer2{
-        margin-left:35%;
+        margin-left:30%;
         margin-top: 1rem;
-        width: 30%;
+        width: 45%;
         display: flex;
         flex-wrap: wrap;
         
