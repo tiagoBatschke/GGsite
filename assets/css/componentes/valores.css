@@ -182,6 +182,16 @@
       .newsletter_container {
         margin-left: -0.5rem;
       }
+
+      .accordion-content {
+        width: 90%;
+     
+      }
+      .accordion {
+         width: 100%;
+         margin-left: 0%;
+         margin-top: -15%;
+       }
      }
   
     @media(min-width: 480px) and (max-width: 680px){
@@ -204,12 +214,14 @@
     }
   
     .accordion-content {
-     width: 100%;
-   }
-   .accordion {
-    width: 90%;
-    
+      width: 100%;
+   
     }
+    .accordion {
+       width: 100%;
+       margin-left: -10%;
+       margin-top: -15%;
+     }
     .tittle_valores_icon {
       font-size: 0.7rem;
       margin-left: 2rem;
@@ -254,11 +266,12 @@
      }
   
     .accordion-content {
-     width: 100%;
+     width: 80%;
+  
    }
    .accordion {
-      width: 90%;
-      margin-left: 5%;
+      width: 100%;
+      margin-left: 10%;
       margin-top: -15%;
     }
 
