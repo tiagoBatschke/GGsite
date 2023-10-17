@@ -32,16 +32,16 @@ $(document).ready(function() {
         {
           breakpoint: 800,
           settings: {
-            slidesToShow: 2.2,
-            slidesToScroll: 2.2,
+            slidesToShow: 2.,
+            slidesToScroll: 2,
             infinite: false,
           }
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2.2,
-            slidesToScroll: 2.2,
+            slidesToShow: 1.8,
+            slidesToScroll: 1 ,
             infinite: false,
           }
         },
