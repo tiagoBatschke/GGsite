@@ -487,14 +487,14 @@
             <section class="newsletter__section" id="about">
                 <div class="newsletter">
                     <h2 class="newsletter__description ">Inscreva-se e receba novidades em seu email!</h2>
-                    <div class="newsletter__subscribe">
-                        <input type="E-mail" placeholder="E-mail" class="newsletter__input">
-                        <a  type="submit" class="link_email_contato" href="mailto:contato@focosp.com">
-                        <button class="newsletter__button">
-                            Inscrever
+                    <form class="newsletter__subscribe" id="form_newsletter">
+                        <input type="E-mail" id="email_news" placeholder="E-mail" class="newsletter__input">
+                        <button class="newsletter__button" id="envia_newsletter">
+                            <a  type="submit" class="link_email_contato">
+                                Inscrever</a>
                         </button>
-                        </a>
-                    </div>
+                        
+                    </form>
                 </div>
         </section>
             <section class="partners_section" >
@@ -527,26 +527,26 @@
                         </div>
                     </div>
     
-                    <form action="" class="contact__form">
+                    <form id="contactForm" action="" class="contact__form">
                         <div class="contact__inputs">
                             <div class="contact__content">
-                                <input type="email" placeholder=" " class="contact__input">
+                                <input type="email" id="email" placeholder=" " class="contact__input">
                                 <label for="" class="contact__label">E-mail</label>
                             </div>
     
                             <div class="contact__content">
-                                <input type="text" placeholder=" " class="contact__input">
+                                <input type="text" id="titulo" placeholder=" " class="contact__input">
                                 <label for="" class="contact__label">Título</label>
                             </div>
     
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                                <textarea name="message" id="mensagem" placeholder=" " class="contact__input"></textarea>
                                 <label for="" class="contact__label">Escreva sua mensagem...</label>
                             </div>
                         </div>
                        
-                        <button class="button_contact">
-                            <a  type="submit" class="link_email_contato" href="mailto:contato@focosp.com">
+                        <button class="button_contact" id="envia_email">
+                            <a  type="submit" class="link_email_contato">
                             Enviar</a>
                             <i class="ri-arrow-right-up-line button__icon"></i>
                         </button>
@@ -578,5 +578,6 @@
         <script src="./assets/js/slick-1.8.1/slick/slick.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript" src="./assets/js/slider.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/enviaForm.js"></script>
     </body>
 </html>

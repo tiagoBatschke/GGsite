@@ -140,26 +140,26 @@
                         </div>
                     </div>
     
-                    <form action="" class="contact__form">
+                    <form id="contactForm" action="" class="contact__form">
                         <div class="contact__inputs">
                             <div class="contact__content">
-                                <input type="email" placeholder=" " class="contact__input">
+                                <input type="email" id="email" placeholder=" " class="contact__input">
                                 <label for="" class="contact__label">E-mail</label>
                             </div>
     
                             <div class="contact__content">
-                                <input type="text" placeholder=" " class="contact__input">
+                                <input type="text" id="titulo" placeholder=" " class="contact__input">
                                 <label for="" class="contact__label">Título</label>
                             </div>
     
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                                <textarea name="message" id="mensagem" placeholder=" " class="contact__input"></textarea>
                                 <label for="" class="contact__label">Escreva sua mensagem...</label>
                             </div>
                         </div>
                        
-                        <button class="button_contact">
-                            <a  type="submit" class="link_email_contato" href="mailto:contato@focosp.com">
+                        <button class="button_contact" id="envia_email">
+                            <a  type="submit" class="link_email_contato">
                             Enviar</a>
                             <i class="ri-arrow-right-up-line button__icon"></i>
                         </button>
@@ -187,6 +187,7 @@
             </div>
        
         </footer>
+        <script src="./assets/js/enviaForm.js"></script>
     </body>
 </html>
        
