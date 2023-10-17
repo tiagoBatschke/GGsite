@@ -12,28 +12,34 @@
       margin-top: 6rem;
       margin-bottom: 4rem;
       margin-left: 10%;
+      
     }
     
     .slick-slide {
       margin: 0px 20px;
+      
     }
     
     .slick-slide img {
       width: 100%;
+      
     }
     
     .slick-prev:before,
     .slick-next:before {
       color: black;
+      
     }
     
     .slick-slide {
       transition: all ease-in-out .3s;
-      opacity: .2;
+      opacity: .0;
+      
     }
     
     .slick-active {
       opacity: .9;
+   
     }
     
     .custom-arrows {
@@ -41,8 +47,9 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 52%;
+     
     }
     
   
@@ -63,10 +70,11 @@
     
     }
      
-    .slick-dotted.slick-slider
+    .slick-dotted
     {
       margin-left: 4%;
       
+  
     }
 }
 
@@ -115,7 +123,7 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 52%;
     }
     
@@ -193,7 +201,7 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 50%;
     }
     
@@ -268,7 +276,7 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 50%;
     }
     
@@ -341,7 +349,7 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 50%;
     }
     
@@ -385,6 +393,7 @@
     
     .slick-slide img {
       width: 100%;
+      
     }
     
     .slick-prev:before,
@@ -407,7 +416,7 @@
       justify-content: center;
       margin-top: 20px;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 4.5rem;
       padding-left: 37%;
     }
   

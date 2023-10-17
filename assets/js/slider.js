@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 
     $(".regular").slick({
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 3,
@@ -18,7 +18,7 @@ $(document).ready(function() {
             slidesToShow: 3.2,
             slidesToScroll: 3.2,
             infinite: false,
-            dots: true
+            dots: false
           }
         },
         {
@@ -56,11 +56,10 @@ $(document).ready(function() {
       ]
     });
     $(".carrousel").slick({
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 3,
-      appendArrows: $(".custom-arrows"),
       prevArrow:false,
       nextArrow: false,
       responsive: [
