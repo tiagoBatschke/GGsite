@@ -1,6 +1,6 @@
 .footer_container{
-    width: 105%;
-    margin-left: -5%;
+    width: 100%;
+    margin-left: 0%;
     background-color: #000;
     
    
@@ -162,8 +162,8 @@ font-size: 1.5rem;
         background-color: #000;
         display: flex;
         margin-top: 1rem;
-        width: 105%;
-        margin-left: -5%;
+        width: 100%;
+        margin-left: 0%;
     }
 
     .footer_intern-container{
@@ -281,8 +281,8 @@ font-size: 1.5rem;
         display: flex;
         flex-direction: column;
         margin-top: 1rem;
-        width: 105%;
-        margin-left: -5%;
+        width: 100%;
+        margin-left: 0%;
     }
 
     .footer_intern-container{
