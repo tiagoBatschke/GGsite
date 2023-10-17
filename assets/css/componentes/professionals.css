@@ -111,6 +111,10 @@
         justify-content: space-evenly;   
     }
 
+    .proffessional_card-container{
+        padding: 1.5rem;
+    }
+
 }
 
 
