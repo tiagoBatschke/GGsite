@@ -1,6 +1,8 @@
 .card_jobs-container{
   padding: 1rem;
   margin-top: 5vh;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 @media screen and (min-width: 980px){
@@ -10,8 +12,7 @@
     }
   
     .card_jobs{
-      margin-left: 1.5rem;
-      margin-right: 1.5rem;
+      
       background-color:#071D54;
       border-radius: 1rem;
       padding: 1rem;
@@ -60,8 +61,7 @@
           }
         
           .card_jobs{
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
+            
             background-color:#071D54;
             border-radius: 1rem;
             padding: 1rem;
@@ -110,8 +110,7 @@
           }
         
           .card_jobs{
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
+            
             background-color:#071D54;
             border-radius: 1rem;
             padding: 1rem;
@@ -163,9 +162,8 @@
           }
         
           .card_jobs{
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
-            background-color:#071D54;
+            
+            background-color:#f4129d;
             border-radius: 1rem;
             padding: 1rem;
             width: 100%;
@@ -213,8 +211,7 @@
           }
         
           .card_jobs{
-            margin-left: 1.5rem;
-            margin-right: 1.5rem;
+          
             background-color:#071D54;
             border-radius: 1rem;
             padding: 1rem;
