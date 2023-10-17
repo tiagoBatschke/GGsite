@@ -17,7 +17,7 @@
   
   .about_content{
     width: 40%;
-    margin-left: 80%;
+    margin-left: 30%;
     margin-bottom: 1.5rem;
   }
   
@@ -150,7 +150,7 @@
   
   @media screen and (max-width: 880px)  {
     .about_content{
-      width: 100%;
+      width: 90%;
       margin-left: 5%;
     }
     
@@ -204,7 +204,7 @@
   
   @media (max-width: 380px){
     .about_content{
-      width: 100%;
+      width: 90%;
       margin-left: 5%;
     }
 
@@ -260,7 +260,7 @@
   
   @media (min-width: 380px) and (max-width: 580px){
     .about_content{
-      width: 100%;
+      width: 80%;
       margin-left: 10%;
     }
     
@@ -325,7 +325,7 @@
   
   @media (min-width: 580px) and (max-width: 880px){
     .about_content{
-      width: 100%;
+      width: 70%;
       margin-left: 15%;
     }
     
@@ -372,7 +372,7 @@
   
   @media (min-width: 880px)and (max-width: 1180px){
     .about_content{
-      width: 100%;
+      width: 80%;
       margin-left: 10%;
     }
     .about__description{
@@ -407,7 +407,7 @@
   
   @media (min-width: 1180px){
     .about_content{
-      width: 100%;
+      width: 80%;
       margin-left: 10%;
     }
     .about__description{
