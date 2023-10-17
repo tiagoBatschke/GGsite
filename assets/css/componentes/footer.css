@@ -68,6 +68,15 @@
    margin-bottom: 1rem;
 }
 
+.logo_footer-container2{
+    width: 30%;
+    margin-left:35%;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
 .direitos_text-container{
     width:60%;
     margin-left:25%;
@@ -92,8 +101,8 @@ font-size: 1.5rem;
         flex-direction: row;
     }
     .title_footer{
-        width: 80%;
-        margin-left: 10%;
+        width:50%;
+        margin-left: 25%;
         margin-top: 1rem;
     }
 
@@ -106,9 +115,9 @@ font-size: 1.5rem;
         margin-top: 0.1rem;
     }
     .title_footer2{
-        margin-left:25%;
+        margin-left:35%;
         margin-top: 1rem;
-        width: 80%;
+        width: 30%;
         display: flex;
         flex-wrap: wrap;
         
@@ -118,6 +127,10 @@ font-size: 1.5rem;
         width: 20%;
         margin-left: 3%;
         
+    }
+    .logo_footer-container2{
+        width: 20%;
+        margin-left: 3%;
     }
 
     .direitos_text-container{
@@ -256,7 +269,7 @@ font-size: 1.5rem;
     }
     
     .title_footer{
-        margin-left: 0%;
+        margin-left: 10%;
         margin-top: 1rem;
         width:80%;
         display: flex;
@@ -267,9 +280,9 @@ font-size: 1.5rem;
 
     
     .title_footer2{
-        margin-left: 30%;
+        margin-left: 25%;
         margin-top: 1rem;
-        width: 40%;
+        width: 50%;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
