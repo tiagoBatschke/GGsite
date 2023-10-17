@@ -195,7 +195,7 @@
        }
      }
   
-    @media(min-width: 480px) and (max-width: 680px){
+    @media(min-width: 400px) and (max-width: 680px){
      .img_valores {
        width: 19rem;
        height: 25rem;
@@ -237,9 +237,9 @@
       flex-direction: row;
       flex-wrap: wrap;
       margin-top: 8rem;
-      width: 80%;
-      margin-left: 10%;
-   
+      width: 90%;
+      margin-left: 5%;
+      
    }
 
    .accordion-content {
@@ -250,7 +250,7 @@
      width: 100%;
      margin-left: -10%;
      margin-top: -15%;
-     background-color: aqua;
+     
    }
   
    .container_content{
