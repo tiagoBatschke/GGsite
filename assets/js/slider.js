@@ -40,7 +40,7 @@ $(document).ready(function() {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1.8,
+            slidesToShow: 1.3,
             slidesToScroll: 1 ,
             infinite: false,
           }
@@ -48,8 +48,8 @@ $(document).ready(function() {
         {
           breakpoint: 450,
           settings: {
-            slidesToShow: 1.2,
-            slidesToScroll: 1.2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             infinite: true,
           }
         },
