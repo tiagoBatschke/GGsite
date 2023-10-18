@@ -44,15 +44,7 @@ $(document).ready(function() {
             slidesToScroll: 1 ,
             infinite: false,
           }
-        },
-        {
-          breakpoint: 450,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            infinite: true,
-          }
-        },
+        }
       ]
     });
     $(".carrousel").slick({
