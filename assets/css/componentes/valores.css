@@ -26,20 +26,23 @@
     .accordion {
      width: 80%;
      height: 20%;
-     margin-top: 5rem;
      
     }
     
     
-    .accordion .accordion-content {
+  .accordion-content {
       border: solid 2px #FF7A00;
-      margin: 8px;
+      margin: 0px;
       overflow: hidden;
       border-radius: 5px;
       position: relative;
       margin-top: 1rem;
     }
     
+.container_content {
+  margin-top: 25%
+}
+
     .icon_content {
      width: 1.5rem;
      height: 1.5rem;
