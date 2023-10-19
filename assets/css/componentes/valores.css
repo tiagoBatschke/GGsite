@@ -40,7 +40,7 @@
     }
     
 .container_content {
-  margin-top: 25%
+  margin-top: 24%
 }
 
     .icon_content {
@@ -98,6 +98,7 @@
     .img_valores {
      width: 30rem;
      height: 30rem;
+     margin-right: 1.3rem;
      margin-top: 5rem;
      margin-bottom: 3rem;
    }
@@ -325,7 +326,7 @@
     }
       
     .container_content{
-      margin-left: 3rem;
+      margin-left: 5rem;
     }
  
     .intro_valores{
@@ -357,11 +358,20 @@
   
      .img_valores {
        width: 22rem;
-       max-height: 30rem;
+       height: 25rem;
+       margin-left: 5rem;
+       margin-top: 3rem;
      }
        
      .container_content{
-       margin-left: 3rem;
+       margin-left: 40%;
+       margin-top: 15%;
+       position: absolute;
+     }
+     .accordion {
+      width: 70%;
+      height: 10%;
+      position: relative;
      }
   
      .intro_valores{
@@ -380,7 +390,7 @@
         margin-top: 1rem;
         font-size: 0.9rem;
        }
-       .description {
+       .description { 
         font-size: 0.8rem;
        }
    }
