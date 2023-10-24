@@ -199,12 +199,13 @@
        }
      }
   
-    @media(min-width: 400px) and (max-width: 680px){
+    @media(min-width: 500px) and (max-width: 680px){
      .img_valores {
        width: 19rem;
-       height: 25rem;
+       height: 22rem;
        margin-bottom: 3rem;
        margin-left: 14%;
+       position: static;
         
      }
   
